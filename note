@@ -1,0 +1,31 @@
+koa2：基于node.js的web开发框架，也是express原班人马开发的，服务端
+基于koa的企业级的框架egg（阿里），thinkjs（360技术）
+首先要安装node
+koa：https://koa.bootcss.com/
+koa依赖node v7.6.0或ES2015及更高版本和async方法支持
+koa安装：npm init -y(生成package.json文件)
+	npm install koa --save
+require:node中加载一个模块的方法，符合common.js规范
+需要使用node命令 node index.js 去执行
+
+对于异步的解决方案：
+    ES6：1.promise
+         2.generator函数
+    ES7: async/await
+
+query和queryString的区别？
+query返回对象
+queryString返回字符串
+
+koa提供了一个中间件省去我们自己写解析函数，
+安装npm install koa-bodyparser --save
+
+koa-router配置路由
+路由前缀prefix
+安装: npm install koa-router --save
+
+cookie
+
+模板ejs
+npm install koa-views --save
+npm install ejs --save
