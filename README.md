@@ -1,4 +1,3 @@
-```
 ###koa安装：  
 	npm init -y   
         npm install koa --save
@@ -13,4 +12,3 @@ koa-router配置路由
 ###模板ejs
 npm install koa-views --save   
 npm install ejs --save
-```
